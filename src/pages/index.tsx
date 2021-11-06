@@ -3,6 +3,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import NavBar from "../components/NavBar";
+import React from "react";
+import NewsCard from "../components/NewsCard";
+import Footer from "../components/Footer";
 const Home: NextPage = () => {
   return (
     <div>
@@ -12,9 +15,43 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <iframe className="flex min-h-screen" src='https://my.spline.design/colorbox2copy-f1f6aed885d8775fbc0e5c8f0c4635b3/' width='100%' height='100%' ></iframe>
+        <iframe
+          className="flex min-h-screen"
+          src="https://my.spline.design/colorbox2copy-f1f6aed885d8775fbc0e5c8f0c4635b3/"
+          width="100%"
+          height="100%"
+        ></iframe>
         <div className="container mx-auto z-20 px-4">
-        <NavBar></NavBar>
+          <NavBar></NavBar>
+          <div className="mt-md">
+            <h2 className="font-normal leading-normal mt-0 mb-2 text-white">
+              Launching Q2 2022
+            </h2>
+          </div>
+          <div className="container flex-col mt-5 text-4xl lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-normal mt-0 mb-2 text-white">
+            <h1>Advanced blockchain analytics.</h1>
+            <h1>Built from the ground up.</h1>
+          </div>
+          <div className="mt-sm">
+            <h2 className="font-normal leading-normal mt-0 mb-2 text-white">
+              Modern analytics and insights for play-to-earn games, NFTs, and
+              more— Secure your competitive advantage with Titan.{" "}
+            </h2>
+          </div>
+          <div className="transition duration-500 ease-in-out">
+            <div className="bg-blue bg-opacity-30 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-25 text-white mt-4 lg:mt-0">
+              <button>Get Early Access</button>
+            </div>
+            <div className=" border border-opacity-0 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:border-opacity-90 text-white mt-4 lg:mt-0">
+              <button>Contact Sales</button>
+            </div>
+          </div>
+          <div>
+            <NewsCard/>
+          </div>
+          <div>
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
