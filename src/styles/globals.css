@@ -1,0 +1,45 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+html,
+body,
+p,
+div,
+span,
+table,
+td
+  {
+  z-index: inherit;
+  background: transparent;
+  /* this is important to see-through normal elements */
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+iframe {
+  position: absolute;
+  float: left;
+  clear: both;
+  width: 100%;
+  z-index: -1;
+}
+
+div{
+  z-index: 1;
+}
