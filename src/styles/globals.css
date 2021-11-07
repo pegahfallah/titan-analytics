@@ -50,6 +50,7 @@ div{
 #footer {
   position: absolute;
   bottom: 0;
-  width: 80%;
+  margin:auto;
+  width: 85%;
   height: 8%;
 }
