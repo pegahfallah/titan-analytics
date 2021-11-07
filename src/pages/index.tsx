@@ -29,21 +29,22 @@ const Home: NextPage = () => {
             </h2>
           </div>
           <div className="container flex-col mt-5 text-4xl lg:text-6xl md:text-5xl sm:text-4xl font-bold leading-normal mt-0 mb-2 text-white">
-            <h1>Advanced blockchain analytics.</h1>
-            <h1>Built from the ground up.</h1>
+            <h1>Commercial analytics</h1>
+            <h1>Built for the Metaverse</h1>
           </div>
           <div className="mt-sm">
             <h2 className="font-normal leading-normal mt-0 mb-2 text-white">
-              Modern analytics and insights for play-to-earn games, NFTs, and
-              more— Secure your competitive advantage with Titan.{" "}
+              Modern analytics to support play to earn gaming and NFT trading.
+              Quickly spot opportunities in the market and maximize earning potential.
+            {" "}
             </h2>
           </div>
-          <div className="transition duration-500 ease-in-out">
-            <div className="bg-blue bg-opacity-30 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-25 text-white mt-4 lg:mt-0">
-              <button>Get Early Access</button>
+          <div className="my-sm">
+            <div className="mr-sm transition duration-500 ease-in-out bg-blue bg-opacity-30 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-50 text-white mt-4 lg:mt-0">
+              <button>Sign up for early access</button>
             </div>
-            <div className=" border border-opacity-0 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:border-opacity-90 text-white mt-4 lg:mt-0">
-              <button>Contact Sales</button>
+            <div className="transition duration-500 ease-in-out border border-opacity-0 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:border-opacity-90 text-white mt-4 lg:mt-0">
+              <button>Get in Touch</button>
             </div>
           </div>
           <div>
