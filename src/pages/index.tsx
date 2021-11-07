@@ -35,8 +35,8 @@ const Home: NextPage = () => {
           <div className="mt-sm">
             <h2 className="font-normal leading-normal mt-0 mb-2 text-white">
               Modern analytics to support play to earn gaming and NFT trading.
-              Quickly spot opportunities in the market and maximize earning potential.
-            {" "}
+              Quickly spot opportunities in the market and maximize earning
+              potential.{" "}
             </h2>
           </div>
           <div className="my-sm">
@@ -48,8 +48,9 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div>
-            <NewsCard/>
+            <NewsCard />
           </div>
+          <div id="modal-root"></div>
           <div>
             <Footer />
           </div>

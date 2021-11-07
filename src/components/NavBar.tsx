@@ -19,7 +19,9 @@ function NavBar() {
           />
         </svg>
 
-        <span className="font-semibold text-xl tracking-tight ml-xs">TITAN</span>
+        <span className="font-semibold text-xl tracking-tight ml-xs">
+          TITAN
+        </span>
       </div>
       <div className="transition duration-500 ease-in-out bg-blue bg-opacity-30 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-50 text-white mt-4 lg:mt-0">
         <a href="#">Join the waitlist</a>
