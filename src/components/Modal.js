@@ -83,8 +83,8 @@ const Modal = ({ show, onClose }) => {
                 <option value="Something else">Something else</option>
               </select>
             </form>
-            <div className="flex w-100 m-auto">
-              <button className="transition duration-500 ease-in-out bg-blue  px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-50 text-white mt-4 lg:mt-0">
+            <div className="flex m-auto justify-center">
+              <button className="transition duration-500 ease-in-out bg-blue  px-xl py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-50 text-white mt-4 lg:mt-0">
                 Join the waitlist
               </button>
             </div>
