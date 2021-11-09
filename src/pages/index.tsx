@@ -6,7 +6,9 @@ import NavBar from "../components/NavBar";
 import React from "react";
 import NewsCard from "../components/NewsCard";
 import Footer from "../components/Footer";
+import Modal from "../components/Modal";
 const Home: NextPage = () => {
+  const [showModal, setShowModal] = React.useState(false);
   return (
     <div>
       <Head>
@@ -41,7 +43,9 @@ const Home: NextPage = () => {
           </div>
           <div className="my-sm">
             <div className="mr-sm transition duration-500 ease-in-out bg-blue bg-opacity-30 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:bg-opacity-50 text-white mt-4 lg:mt-0">
-              <button>Sign up for early access</button>
+              <button onClick={() => setShowModal(true)}>
+                Sign up for early access
+              </button>
             </div>
             <div className="transition duration-500 ease-in-out border border-opacity-0 px-sm py-xs inline-block text-md leading-none rounded focus:shadow-outline hover:border-opacity-90 text-white mt-4 lg:mt-0">
               <button>Get in Touch</button>
@@ -50,6 +54,7 @@ const Home: NextPage = () => {
           <div>
             <NewsCard />
           </div>
+          <Modal onClose={() => setShowModal(false)} show={showModal}></Modal>
           <div id="modal-root"></div>
           <div>
             <Footer />
